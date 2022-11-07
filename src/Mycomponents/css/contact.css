@@ -1,0 +1,252 @@
+.contact-section {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root{
+  background-color:  #ab1f18 !important;
+  color:white;
+  font-weight: bold !important;
+}
+
+.contact-icon-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 200px;
+  position: relative;
+  left: 360px;
+
+}
+
+.contact-icon-flex .icon a {
+  color: #aa1008;
+}
+
+.contact-icon-flex .icon a:hover {
+  color: whitesmoke;
+  background-color: #aa1008;
+  padding:5px 2px;
+  border-radius: 2px;
+}
+
+.contact-container {
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.contact-container .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-container .contact .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.contact .left-side::before {
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+
+.contact .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.contact .left-side .details i {
+  font-size: 30px;
+  color: #aa1008;
+  margin-bottom: 10px;
+}
+
+.contact .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact .left-side .details .text-one,
+.contact .left-side .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.contact-container .contact .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+
+.contact .right-side .topic-text {
+  font-size: 26px;
+  font-weight: 600;
+  color: #aa1008;
+  margin-bottom: 10px;
+}
+
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+
+.right-side .input-box input:-webkit-autofill,
+.right-side .input-box input:-webkit-autofill:hover,
+.right-side .input-box input:-webkit-autofill:focus,
+.right-side .input-box input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: rgb(253, 247, 247);
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+  display: block;
+}
+
+.right-side .message-box {
+  min-height: 110px;
+}
+
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+
+.right-side .input-box textarea:focus {
+  box-shadow: 0 0 1px #c1bfbf;
+  outline-offset: 0px;
+  outline: none;
+}
+
+.right-side .contact-button {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.right-side .contact-button input[type="submit"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #aa1008;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.contact-button input[type="contact-button"]:hover {
+  background: #5029bc;
+}
+
+@media screen and (max-width:1239px) {
+  .contact-icon-flex {
+    margin-top: 10px;
+    align-self: center;
+    position: relative;
+    left: 200px;
+
+  }
+
+}
+
+@media screen and (max-width:1016px) {
+  .contact-icon-flex {
+    align-self: center;
+    position: relative;
+    left: 90px;
+
+  }
+
+}
+
+@media screen and (max-width:565px) {
+  .contact-icon-flex {
+    display: none;
+  }
+
+  .contact-button {
+    display: block;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 950px) {
+  .contact-container {
+    width: 90%;
+    padding: 30px 40px 40px 35px;
+    text-align: center;
+  }
+
+  .contact-container .contact .right-side {
+    width: 75%;
+    margin-left: 55px;
+  }
+
+  .contact-icon-flex {
+    align-self: center;
+    position: relative;
+    left: 130px;
+
+  }
+
+
+}
+
+@media (max-width: 820px) {
+  .contact-container {
+    height: 100%;
+
+  }
+
+  .contact-container .contact {
+    flex-direction: column-reverse;
+  }
+
+  .contact-container .contact .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-container .contact .left-side::before {
+    display: none;
+  }
+
+  .contact-container .contact .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+}

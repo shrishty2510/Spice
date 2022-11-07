@@ -1,0 +1,278 @@
+
+.container1 {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+
+    margin-top: 50px !important;
+}
+.container1 .para{
+    line-height: 2rem;
+    font-size: 19px;
+    text-align:center;
+    /* font-weight: 600; */
+    font-family: "Poppins", sans-serif;
+    
+}
+.container1 h4{
+    color:#aa1008;
+}
+
+
+.button {
+    border: 2px solid lightgray;
+    background-color: #e31e24;
+    color: whitesmoke;
+    padding: 25px;
+    line-height: 0.1rem;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: -19px 13px 10px 0px rgb(0 0 0 / 50%);
+}
+
+
+#con4 {
+
+    background-color: rgba(0, 0, 0, 0.949);
+    margin-top: 80px;
+
+}
+
+#con4 h1 {
+    text-shadow: 0 0 9px #c31e11, 0 0 9px #c31e11;
+}
+
+#con4 .marquee_div {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3rem;
+    line-height: 100px;
+    width: 600px;
+
+}
+
+
+.home-products .h3 {
+    text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-transform: uppercase;
+
+
+}
+
+.home-products p {
+    font-weight: 700;
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    line-height: 1.6;
+    font-size: 18px;
+
+}
+
+
+.quick-dal {
+    padding: 0px 3px;
+    width:auto;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+.quick-dal span{
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 800;
+    animation: countdown2 4s linear 1s infinite;
+    text-shadow: 1px 1px  rgb(254, 236, 236);
+
+}
+
+
+ 
+@keyframes countdown2 {
+    0% {
+      color: rgb(44, 162, 213);
+      text-decoration:dashed;
+    }
+    40% {
+      color:  #c31e11;
+      
+    }
+    70% {
+      color: #d6382d;
+    }
+    100% {
+      color: #e32b1d;
+    }
+  } 
+
+
+
+
+.home-products .row {
+    padding: 50px 0px 25px 0px;
+}
+
+.home-products img {
+    width:360px;
+    height:450px;
+    filter: drop-shadow(5px 5px 5px #2C3333);
+    cursor: pointer;
+}
+.home-product-title{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:1280px) {
+   
+    .container1 {
+        margin-top: 100px;
+    }
+    .container1 .para {
+        font-size: 18px;
+    
+    }
+   
+
+}
+
+@media screen and (max-width:600px) {
+    .container1 {
+        position: relative;
+        margin-top: 15px !important;
+    }
+
+    .container1 h2 {
+        font-size: 18px;
+        padding-top: 20px;
+        font-weight: 600;
+
+    }
+
+    .container1 h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+       
+    }
+
+    .container1 .para {
+        font-size: 15px;
+        text-align: justify;
+        hyphens: auto;
+        line-height:1.9;
+    }
+    .quick_content{
+        display:none;
+    }
+
+
+}
+
+@media screen and (min-width:200px) and (max-width:1200px) {
+    
+    .container1 .para{
+        text-align: justify;
+        hyphens: auto;
+    }
+
+}
+
+    
+
+
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    .home-products img{
+        width: 360px;
+        height: 420px;
+        object-fit: contain;
+        
+       
+    }
+    .home-products p{
+        text-align: justify;
+        hyphens: auto;
+    }
+}
+
+
+@media screen and (min-width:400px) and (max-width:600px) {
+   
+    #con4 .marquee_div {
+        font-size: 20px;
+    }
+    .home-products img{
+        width: 350px;
+        height: 350px;
+        object-fit: contain;
+        
+       
+    }
+    .home-products .home-product-title{
+        font-size: 18px;
+    }
+    .home-products .h3{
+        font-size: 23px;
+    }
+    .home-products p{
+        font-size: 17px;
+        text-align: justify;
+        hyphens: auto;
+        max-width:400px;
+    }
+
+}
+@media screen and (min-width:200px) and (max-width:400px) {
+   
+    #con4 .marquee_div {
+        font-size: 20px;
+    }
+    .home-products img{
+        width: 300px;
+        height: 280px;
+        object-fit: contain;
+          
+       
+    }
+    .home-products .home-product-title{
+        font-size: 16px;
+    }
+    .home-products .h3{
+        font-size: 19px;
+    }
+    .home-products p{
+        font-size: 15px;
+        text-align: justify;
+        hyphens: auto; 
+        max-width: 300px;
+        
+    }
+
+}
+@media screen and (min-width:200px) and (max-width:3000px){
+    .wrapper{
+        margin-top: 110px;
+    
+    }
+}

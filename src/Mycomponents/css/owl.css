@@ -1,0 +1,23 @@
+
+.product-owl-carousel div img{
+   object-fit: contain;
+
+}
+
+
+
+@media screen and (min-width:498px) and (max-width:600px){
+    .product-owl-carousel div {
+        padding: 0px 101px
+    }
+}
+@media screen and (min-width:450px) and (max-width:498px){
+    .product-owl-carousel div {
+        padding: 0px 80px
+    }
+}
+@media screen and (min-width:350px) and (max-width:450px){
+    .product-owl-carousel div {
+        padding: 0px 50px
+    }
+}

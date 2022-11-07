@@ -1,0 +1,115 @@
+
+.gallery-container .gallery-h{
+    word-spacing: 2px;
+    letter-spacing: 0.08rem;
+    color: #171616;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+} 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.gallery img, .gallery video{
+    object-fit: cover;
+    padding:8px 12px;
+    filter: drop-shadow(3px 3px 5px rgb(31, 29, 29));
+ 
+}
+.gallery img:hover , .gallery video:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content_img{
+    position: relative;
+    width: 420px;
+    height: 300px;
+    float: left;
+    
+   }
+   
+   /* Child Text Container */
+   .content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    background: #aa1008;;
+    color: white;
+    margin: 0px 0px 8px 12px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */
+   .content_img:hover{
+    cursor: pointer;
+   }
+   
+   .content_img:hover div{
+    width: 397px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 15px;
+    letter-spacing: 0.05rem;
+    visibility: visible;
+    opacity: 0.7; 
+   }
+
+ @media screen and (min-width:350px) and (max-width:480px){
+    .gallery{
+       width:340px;
+       margin: auto;
+    }
+    .gallery img, .gallery video{
+        width: 370px;
+        height: 320px;
+        object-fit: cover;
+        padding: 20px 30px;
+       
+    }
+    .content_img div{
+        margin: 0px 0px 0px 29px;
+       }
+    
+   .content_img:hover div{
+    width: 312px;
+    padding: 8px 15px;
+   }   
+
+}    
+
+@media screen and (min-width:200px) and (max-width:350px){
+    .gallery{
+        margin-top: 0px;
+    }
+    .gallery img, .gallery video{
+        width: 300px;
+        height: 280px;
+        object-fit: cover;
+        padding: 12px;
+        /* filter: grayscale(1); */
+    }
+    .content_img div{
+        margin: 0px 0px 31px 12px;
+       }
+    
+   .content_img:hover div{
+    width: 277px;
+    padding: 8px 15px;
+   }   
+
+}    
+    
+
+
+
+
+

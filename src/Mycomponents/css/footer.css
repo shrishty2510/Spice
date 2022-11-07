@@ -1,0 +1,229 @@
+
+
+footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height: calc(100% - 60px);
+   
+
+}
+
+.foot1 {
+    /* background-color:#100f0f; */
+    background-color: whitesmoke;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    color: black;
+
+
+}
+.footer-flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-flex-item{
+    width:300px;
+    padding-right: 20px;
+}
+
+.footbox {
+    background-color: #e31e24;
+    width: 50px;
+    height: 34px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 10px;
+    color: whitesmoke;
+    float: right;
+    z-index: 99;
+}
+.footbox:hover {
+    color: #e31e24;
+    background-color: white;
+}
+.footbox i{
+    animation: scrolltop 0.5s alternate ease infinite;
+}
+@keyframes scrolltop {
+    from{
+        transform: translateY(4px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+    
+}
+.icon-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.icon-flex a{
+    color:grey
+}
+.icon-flex a:hover{
+    color:white;
+}
+.icon-flex .icon{
+   padding: 0px 25px 0px 0px;
+}
+
+.footbox a {
+    color: aliceblue;
+}
+
+.fintro :hover {
+    color: white;
+    font-size: 14px;
+
+}
+.footer-flex-item ul li{
+    padding-bottom: 30px;
+}
+
+.fintro {
+    color: darkgray;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    text-align: justify;
+
+}
+
+.fintro li a {
+    color: darkgrey;
+}
+.footer-heading{
+    letter-spacing: 0.1rem;
+    color:white;
+}
+footer .flex-container svg{
+    
+    color: white;
+
+}
+footer .flex-container svg:hover{
+    color: #e31e24;
+    transform: scale(1.1);
+}
+footer .footer-flex-item hr{
+    color: #e31e24;
+    width: 120px;
+    opacity: 1;
+
+}
+footer  .quick-link{
+    padding-left: 60px;
+}
+.footer-subscribe-div{
+   
+    padding: 0px 10px;
+   
+}
+.footer-subscribe-div input{
+    border-radius: 12px 34px 4px 4px;
+    border-right: none;
+    width: 340px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+}
+.footer-subscribe-div input:focus{
+    box-shadow: 0 0 1px black;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.footer-subscribe{
+    
+    display: block;
+    padding: 8px 15px;
+    width: 114px;
+    height: 50px;
+    text-align: center;
+    border: 1px ridge rgba(0, 0, 0, 0.479);
+    color:white;
+    font-weight: bold;
+    /* background-color: #fcf7f714; */
+    background-color:   #e31e24;
+    border-radius: 4px;
+    border-radius: 5px 4px 4px 30px;
+  
+    letter-spacing: 0.1rem;
+    box-shadow: inset 0 0 0 0 black;
+    transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
+    border-left:none;
+}
+
+
+.footer-subscribe:hover{
+    box-shadow: inset 200px 0px 0px 0px #f5f5f5;
+    color: #e31e24;
+    
+}
+
+@media screen  and (min-width:640px) and (max-width:990px){  
+    .icon-flex{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-left: 0px;
+        
+    }
+    .footer-flex-item {
+        text-align: left;
+    }
+    footer .footer-flex-item hr{
+        color: #e31e24;
+        width: 180px;
+        opacity: 1;
+    
+    }
+}    
+    @media screen  and (min-width:200px) and (max-width:640px){  
+        .icon-flex{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 20px;
+            
+        }
+        .footer-flex-item {
+            text-align: left;
+        }
+        footer .footer-flex-item hr{
+            color:crimson;
+            width: 50%;
+            align-self: center;
+            opacity: 1;
+        
+        
+        }
+        footer .footer-flex-item ul{
+            padding-left: 20px;
+        }
+        footer  .quick-link{
+            padding-left: 0px;
+        }
+        .foot1 div p{
+            text-align: left;
+            padding-left: 0px;
+        }
+        .footbox {
+            position: fixed;
+            bottom:20px;
+           
+            float: right;
+        }
+        .foot1{
+            padding-bottom: 65px;
+            margin-bottom: -10px;
+        }
+}

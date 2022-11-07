@@ -1,0 +1,380 @@
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 95px;
+  background-color: rgb(252, 252, 252);
+  transition-timing-function: ease-in;
+  transition:0.5s;
+  
+  
+}
+#nav-true{
+  background-color: rgb(31, 30, 30);
+  opacity: 1;
+}
+#nav-true a{
+  color:whitesmoke;
+}
+
+
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+    
+}
+
+nav .logo{
+    float:left;
+    padding: 10px 20px;
+}
+nav .logo img{
+  width:180px;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    left :80px;
+    
+}
+nav ul li{
+    margin-top: 45px;
+    display: inline-block;
+    
+    
+   
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 48px;
+    padding: 10px 15px;
+    transition: 0.3s all ease;
+    color: rgba(0, 0, 0, 0.751);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+nav ul li a:hover{
+    color: rgb(170, 25, 25);
+
+    font-weight: bold;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    top:48px;
+    left: 0;
+    background-color: 
+    rgb(170, 25, 25);
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  nav .main-ul ul{
+    position: absolute; 
+    z-index: 100; 
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+    
+    
+  }
+  nav ul ul ul{
+    border-top: none;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0;
+    width: 220px;
+    display: list-item;
+    float:none;
+    text-align: left;
+    background-color: rgb(15, 10, 10);
+    border: 0px ridge rgb(2, 1, 1);
+    
+    
+
+  }
+ 
+  nav ul ul li a{
+    color: black;
+   
+  }
+  
+  nav ul ul li a{
+    line-height: 39px;
+    
+  }
+  nav .second-ul li a ,  .third-ul li a {
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: capitalize;
+    color:whitesmoke;
+    
+  }
+  nav .main-ul li:hover >  .second-ul{
+    top:95px;
+    left:180px;
+   
+    visibility: visible;
+    opacity: 0.91;
+   
+   
+  }
+  nav .main-ul .second-ul .second-li:hover >  .third-ul{
+    top:97px;
+    left:188px;
+    opacity: 0.91;
+    visibility: visible;
+    
+
+  }
+  /* nav .main-ul li:hover >  .fourth-ul{
+    top:96px;
+    right: 435px;
+    opacity: 0.9;
+    visibility: visible;
+    color: black;
+    
+  } */
+  /* nav .main-ul .fourth-ul li{
+    width:180px;
+  }
+  */
+  .buy-online{
+   animation: countdown1 4s linear 1s infinite;
+  
+    
+  }
+  
+
+@keyframes countdown1 {
+  0% {
+    color: rgb(44, 162, 213);
+    text-decoration: underline;
+  }
+  20% {
+    color: #1453ab;
+  }
+  40% {
+    color: #8a2c25;
+    
+  }
+  70% {
+    color: #d6382d;
+  }
+  100% {
+    color: #e32b1d;
+    text-decoration: underline;
+  }
+}
+  
+  nav .main-ul ul .third-ul li {
+    position: relative;
+    top:-139px;
+    text-align: left;
+    
+    
+  
+  }
+  .show ,.nav-icon ,input{
+    display: none;
+  }
+  .fa-plus{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  @media screen and (min-width:100px) and (max-width:1239px){
+    nav .main-ul{
+      margin-top:-70px;
+      border: 1px ridge crimson;
+    }
+    nav .main-ul a {
+      font-size: 15px;
+    }
+    nav .main-ul .second-ul li{
+      text-align: left;
+      margin-left: -32px;
+      border: none;
+      
+    
+    }
+    nav .main-ul .second-ul .third-ul li,nav .main-ul {
+      text-align: left;
+      position:static;
+      margin-left: -33px;
+      
+    
+    }
+    
+    nav .main-ul  li{
+      margin:-5px 0px;
+      cursor:pointer;
+    }
+    nav .logo{
+      padding-left:30px;
+      width:100%;
+    }
+    .show + a,nav ul{
+      display:none;
+    }
+    nav ul li, nav ul ul li{
+      display:block;
+
+    }
+    nav ul li a:hover{
+      box-shadow: none;
+    }
+    .show{
+      display:block;
+
+      font-size: 16px;
+      padding:3px 0px 0px  12px;
+      padding: 17px 16px;
+      font-weight: bold;
+    }
+    
+    .nav-icon{
+      display:block;
+      cursor:pointer;
+      font-size: 26px;
+      position: relative;
+      top: -90px;
+      float: right;
+    }
+    nav ul ul{
+      top:70px;
+      border-top:0px;
+      float:none;
+      position:static;
+      display:none;
+      opacity:1;
+      visibility:visible;
+    }
+   
+    nav ul ul ul li{
+      position:static;
+    }
+    [id^=btn]:checked + ul{
+      display:block;
+     
+    }
+    [id^=btn]:not(:checked)+ ul{
+      display:none;
+     
+    }
+    
+    nav .main-ul {
+    background-color: rgba(0, 0, 0, 0.899);
+     width: 113%;
+    
+    }
+    nav .main-ul ul{
+       width: 100%;
+     
+      
+      }
+      
+   
+    
+   
+    nav ul li a , .show,ul ul li a{
+      color: whitesmoke ;
+    }
+   nav .main-ul li a:hover{
+    color: rgb(170, 25, 25);
+    transition: none;
+
+    font-weight: bold;
+}
+nav .main-ul ul ul li a:hover,nav .main-ul ul li a:hover{
+        color: rgb(170, 25, 25);
+        
+}
+nav .main-ul li:hover >  ul{
+  position: static;
+ 
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0px;
+  top:48px;
+  left: 0;
+  background-color: 
+  transparent;
+  transform-origin: bottom right;
+  transition: transform 0s ease-out;
+}
+nav ul ul li{
+  background-color: transparent;
+  
+  
+
+}
+.buy-online{
+  border: 0px dashed transparent;
+  border-radius: 0px;
+  height: 49px;
+  
+}
+nav .logo img{
+  float:right;
+  padding-top:10px;
+
+}
+#nav-true .nav-icon{
+  color:whitesmoke;
+}
+.buy-online{
+  animation: countdown1 0s linear 0s infinite;
+ 
+   
+ }
+nav .third-ul li{
+  margin:1px 0px;
+}
+}
+
+
+@media screen and (min-width:1500px) and (max-width:3000px){
+.nav{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+nav .logo img {
+  width: 180px;
+  margin-bottom: 17px;
+}
+
+}

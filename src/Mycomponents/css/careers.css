@@ -1,0 +1,138 @@
+
+.container-career{
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-backdrop.show
+{
+    opacity:0.5 !important;
+}
+
+.container-career 
+.slidecontainer {
+    width: 70%;
+    margin:0px auto;
+    overflow: hidden;
+}
+.container-career 
+.careercontent {
+    width: 75%;
+    margin:0px auto;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    border-left: 2px solid #aa1008;
+    background-color: white;
+}
+.career-container .career-modal .modal-content{
+    border: 1px ridge  gray;
+    border-radius: 0px;
+   }
+.careercontent .sh {
+    text-align: left;
+    font-weight: normal;
+    font-size: 2em;
+    color: #aa1008;
+    padding: .5em;
+    margin-bottom: -10px;
+
+}
+.career-join .career-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-size: 42px;
+    color: #181616;
+    
+}
+.career-join p{
+    color: #181616;
+    
+}
+.career-join{
+    padding: 0px 10px;
+}
+
+.careercontent p{
+    text-align: left;
+    padding-left: 19px;
+    font-size: 17px;
+   
+}
+.career-container .form-control{
+    border: 1px solid #080707;
+    border-radius: none;
+   
+}
+.career-container  input:focus{
+    box-shadow: 0 0 1px white;
+    border: 1px solid #aa1008;
+    outline: #aa1008;
+    outline-offset: 0px;
+    outline: none;
+    
+}
+.career-container .btn-close{
+    box-shadow: 0 0 1px white;
+    outline: #aa1008;
+    outline-offset: 0px;
+    outline: none;
+    color:black;
+
+}
+
+.career-container label{
+    color:rgb(8, 7, 7);
+    font-size: 15px;
+    font-weight: 500;
+}
+.career-container .row {
+    margin:20px;
+}
+
+@media screen and (min-width:200px) and (max-width:600px){
+ 
+    .container-career .slidecontainer {
+        overflow: hidden;
+    }
+    .careercontent p {
+        font-size: 16px;
+        text-align: justify;
+        hyphens: auto;
+        
+    }
+    
+    .career-join p{
+        font-size: 17px !important;
+    }
+   .career-join .career-title{
+        font-size: 30px !important;
+    }
+   
+  
+}
+@media screen and (min-width:200px) and (max-width:550px){
+    
+   .career-container .career-modal .modal-content{
+    border:1px solid goldenrod;
+    border-radius: 0px;
+    margin:0px -16px;
+   }
+   
+   
+}
+@media screen and (min-width:200px) and (max-width:400px){
+    .careercontent .sh{
+     margin-top: -60px;
+    }
+    
+ }
+ @media screen and (min-width:200px) and (max-width:400px){
+ 
+    .container-career .slidecontainer{
+        margin-bottom: 100px;
+    }
+}  

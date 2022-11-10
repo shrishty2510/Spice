@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "./css/pusphcategory.css"
 import categories from './js/munimji_data'
+import image1 from "./images/banner/spinner.gif"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
@@ -40,7 +42,7 @@ export const Munimjimasale = () => {
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12"  data-aos="fade-down">
                       <div className="card  mt-5">
                         <div className="card_img text-center">
-                          <Link  to={`/product-page/${url}/${spice_url}`}><img src={image}  width='170' height='210' alt="product_image" /></Link>
+                          <Link  to={`/product-page/${url}/${spice_url}`}> <LazyLoadImage src={image} width={170} height={210}  placeholderSrc={image1} effect="blur" alt="product_image" /></Link>
                         </div>
                         <div className="card_info my-4">
                           <div><h6 className="text-center text-muted">{category}</h6></div>

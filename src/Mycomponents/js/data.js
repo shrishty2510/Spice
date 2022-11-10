@@ -3,7 +3,7 @@ import pic3 from "../images/product images/pusphmasale/turmeric Powder.jpg"
 import pic4 from "../images/product images/pusphmasale/Mango Powder.jpg"
 import pic5 from "../images/product images/pusphmasale/Chat Masala 100gm.png";
 import pic6 from "../images/product images/pusphmasale/ctc_chilli_powder.jpg"
-import pic7 from '../images/product images/pusphmasale/Kashmiri Mirch 100gm.png';
+import pic7 from '../images/product images/pusphmasale/Kashmiri Mirch.png';
 import pic8 from '../images/product images/pusphmasale/shahi Rangat.png';
 import pic9 from '../images/product images/pusphmasale/Tikha Tadka.png';
 

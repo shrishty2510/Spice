@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 
 import { useParams, Link } from 'react-router-dom';
 import Categories from './js/data'
+import image1 from "./images/banner/spinner.gif"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
@@ -43,7 +45,7 @@ const PusphProduct = () => {
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={filteredItem.id} data-aos="fade-down" data-aos-easing="ease-in-out">
                                         <div className="card mb-5 " style={{ border: 'none' }}>
                                             <div className="card_img text-center">
-                                                <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`} > <img src={filteredItem.image} width='170' height='210' alt="product_image" /></Link>
+                                                <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`} > <LazyLoadImage src={filteredItem.image} width={170} height={210}  placeholderSrc={image1} effect="blur" alt="product_image" /></Link>
                                             </div>
                                             <div className="card_info my-4">
                                                 <div><h6 className="text-center text-muted">{filteredItem.category}</h6></div>

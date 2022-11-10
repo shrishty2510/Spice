@@ -1,9 +1,9 @@
 import pic1 from '../images/product images/owldemo/Hing Mockup 100g.png';
-import pic2 from '../images/product images/owldemo/Dal Tadka QF.jpg';
-import pic5 from '../images/product images/owldemo/Shahi Panner QF.jpg';
-import pic6 from '../images/product images/owldemo/Kashmiri Mirch.jpg';
-import pic7 from '../images/product images/owldemo/Achar Masala.jpg';
-import pic8 from '../images/product images/owldemo/Poha Masala.jpg';
+import pic2 from '../images/product images/owldemo/QF Dal Tadka Masala.png';
+import pic5 from '../images/product images/owldemo/Shahi Paneer QF.png';
+import pic6 from '../images/product images/owldemo/Kashmiri Mirch.png';
+import pic7 from '../images/product images/owldemo/Achar Masala.png';
+import pic8 from '../images/product images/owldemo/Poha Masala.png';
 
 const products = [
 

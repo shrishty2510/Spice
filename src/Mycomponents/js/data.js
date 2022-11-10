@@ -1,61 +1,61 @@
 import pic2 from "../images/product images/pusphmasale/ctc_coriander_powder.jpg"
 import pic3 from "../images/product images/pusphmasale/turmeric Powder.jpg"
 import pic4 from "../images/product images/pusphmasale/Mango Powder.jpg"
-import pic5 from "../images/product images/pusphmasale/Chat Masala 100gm.jpg";
+import pic5 from "../images/product images/pusphmasale/Chat Masala 100gm.png";
 import pic6 from "../images/product images/pusphmasale/ctc_chilli_powder.jpg"
-import pic7 from '../images/product images/pusphmasale/Kashmiri Mirch 100gm.jpg';
-import pic8 from '../images/product images/pusphmasale/shahi Rangat.jpg';
-import pic9 from '../images/product images/pusphmasale/Tikha Tadka.jpg';
+import pic7 from '../images/product images/pusphmasale/Kashmiri Mirch 100gm.png';
+import pic8 from '../images/product images/pusphmasale/shahi Rangat.png';
+import pic9 from '../images/product images/pusphmasale/Tikha Tadka.png';
 
 
-import pic10 from '../images/product images/pusphmasale/Shahi Biryani.jpg';
-import pic11 from '../images/product images/pusphmasale/Garam Masala 100gm 2.jpg';
-import pic12 from '../images/product images/pusphmasale/Kitchen King 100gm.jpg';
-import pic13 from '../images/product images/pusphmasale/Punjabi Garam Masala 100gm.jpg';
-import pic14 from '../images/product images/pusphmasale/Dhana Jeera Powder 100gm.png';
-import pic15 from '../images/product images/pusphmasale/Poha Masala Jeeravan.jpg';
-import pic16 from '../images/product images/pusphmasale/Achar Masala.jpg';
-import pic17 from '../images/product images/pusphmasale/Chana Masala 100gm.jpg';
-import pic18 from '../images/product images/pusphmasale/Jal jeera 100gm2.jpg';
+import pic10 from '../images/product images/pusphmasale/Shahi Biryani.png';
+import pic11 from '../images/product images/pusphmasale/Garam Masala 100gm 2.png';
+import pic12 from '../images/product images/pusphmasale/Kitchen King 100gm.png';
+import pic13 from '../images/product images/pusphmasale/Punjabi Garam Masala 100gm.png';
+import pic14 from '../images/product images/pusphmasale/ctc_dhana_jeera.png';
+import pic15 from '../images/product images/pusphmasale/Poha Masala Jeeravan.png';
+import pic16 from '../images/product images/pusphmasale/Achar Masala.png';
+import pic17 from '../images/product images/pusphmasale/Chana Masala 100gm.png';
+import pic18 from '../images/product images/pusphmasale/Jal jeera 100gm2.png';
 
-import pic19 from '../images/product images/pusphmasale/Raita Dahivada 100gm.jpg';
-import pic20 from '../images/product images/pusphmasale/Paneer Masala 100gm.jpg';
-import pic21 from '../images/product images/pusphmasale/Tea Masala.jpg';
+import pic19 from '../images/product images/pusphmasale/Raita Dahivada 100gm.png';
+import pic20 from '../images/product images/pusphmasale/Paneer Masala 100gm.png';
+import pic21 from '../images/product images/pusphmasale/Tea Masala.png';
 import pic22 from '../images/product images/pusphmasale/Pani Poori Masala.png';
-import pic23 from '../images/product images/pusphmasale/Pav Bhaji 100gm.jpg';
-import pic24 from '../images/product images/pusphmasale/Sabji Masala 100gm.jpg';
-import pic25 from '../images/product images/pusphmasale/Sambhar 100gm.jpg';
-import pic26 from '../images/product images/pusphmasale/White Powder 100gm.jpg';
-import pic27 from '../images/product images/pusphmasale/Black Pepper 100gm.jpg';
+import pic23 from '../images/product images/pusphmasale/Pav Bhaji 100gm.png';
+import pic24 from '../images/product images/pusphmasale/Sabji Masala 100gm.png';
+import pic25 from '../images/product images/pusphmasale/Sambhar 100gm.png';
+import pic26 from '../images/product images/pusphmasale/White Powder 100gm.png';
+import pic27 from '../images/product images/pusphmasale/Black Pepper 100gm.png';
 
 import pic1 from '../images/product images/owldemo/Hing Mockup 100g.png';
-import pic28 from '../images/product images/pusphmasale/Kasoori Methi.jpg';
-import pic29 from '../images/product images/pusphmasale/Dry Ginger 100gm.jpg';
-import pic30 from '../images/product images/pusphmasale/Cumin Powder.jpg';
-import pic31 from '../images/product images/pusphmasale/Soya Chunks 100gm.jpg';
-import pic32 from '../images/product images/pusphmasale/Soya Chunks Mini 100gm.jpg';
+import pic28 from '../images/product images/pusphmasale/Kasoori Methi.png';
+import pic29 from '../images/product images/pusphmasale/Dry Ginger 100gm.png';
+import pic30 from '../images/product images/pusphmasale/Cumin Powder.png';
+import pic31 from '../images/product images/pusphmasale/Soya Chunks 100gm.png';
+import pic32 from '../images/product images/pusphmasale/Soya Chunks Mini 100gm.png';
 import pic35 from '../images/product images/pusphmasale/Soya Granules.png';
 import pic33 from "../images/product images/quickfry/pasta_masala.png";
 import pic34 from "../images/product images/quickfry/spice_booster_masala.png";
 
-import pic36 from '../images/product images/horeca/Chat Masala.jpg';
-import pic43 from '../images/product images/horeca/Chana Masala.jpg';
-import pic37 from '../images/product images/horeca/Garam Masala.jpg';
-import pic38 from '../images/product images/horeca/Kashmiri Mirch.jpg';
-import pic39 from '../images/product images/horeca/Kitchen King.jpg';
-import pic40 from '../images/product images/horeca/Pav Bhaji.jpg';
-import pic41 from '../images/product images/horeca/Punjabi Garam Masala.jpg';
-import pic42 from '../images/product images/horeca/Sambhar Masala.jpg';
+import pic36 from '../images/product images/horeca/Chat Masala.png';
+import pic43 from '../images/product images/horeca/Chana Masala.png';
+import pic37 from '../images/product images/horeca/Garam Masala.png';
+import pic38 from '../images/product images/horeca/Kashmiri Mirch.png';
+import pic39 from '../images/product images/horeca/Kitchen King.png';
+import pic40 from '../images/product images/horeca/Pav Bhaji.png';
+import pic41 from '../images/product images/horeca/Punjabi Garam Masala.png';
+import pic42 from '../images/product images/horeca/Sambhar Masala.png';
 
-import pic44 from "../images/product images/quickfry/Dal Fry QF.jpg"
-import pic45 from "../images/product images/quickfry/Dal Tadka QF.jpg"
-import pic46 from "../images/product images/quickfry/Sabji Masala QF.jpg"
-import pic47 from "../images/product images/quickfry/Shahi Panner QF.jpg"
-import pic48 from "../images/product images/quickfry/Shahi Sabji QF.jpg"
-import pic49 from "../images/product images/quickfry/Soya Chunks QF.jpg"
+import pic44 from "../images/product images/quickfry/Dal Fry QF.png"
+import pic45 from "../images/product images/quickfry/Dal Tadka QF.png"
+import pic46 from "../images/product images/quickfry/Sabji Masala QF.png"
+import pic47 from "../images/product images/quickfry/Shahi Paneer QF.png"
+import pic48 from "../images/product images/quickfry/Shahi Sabji Masala QF.png"
+import pic49 from "../images/product images/quickfry/Soya Chunks QF.png"
 
-import pic50 from "../images/product images/quickfry/pasta_masala slider.png";
-import pic51 from "../images/product images/quickfry/Spice Booster slider.png";
+// import pic50 from "../images/product images/quickfry/pasta_masala slider.png";
+// import pic51 from "../images/product images/quickfry/Spice Booster slider.png";
 
 
 

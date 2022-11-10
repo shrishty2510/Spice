@@ -73,7 +73,7 @@
 }
 
 .home-products p {
-    font-weight: 700;
+    /* font-weight: 700; */
     max-width: 480px;
     margin: auto;
     text-align: center;

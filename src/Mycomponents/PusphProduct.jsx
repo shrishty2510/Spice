@@ -13,7 +13,7 @@ const PusphProduct = () => {
         window.scrollTo(0, 0)
         document.title = `${category_url.toUpperCase()} - pusph masale`;
 
-    }, [])
+    })
 
 
 

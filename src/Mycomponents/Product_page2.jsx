@@ -31,7 +31,7 @@ export const Product_page2 = () => {
   return (
 
     <>
-      <section style={{ marginTop: '150px', }}>
+      <section style={{ marginTop: '120px', }}>
         <main>
           <div className="container product_container mt-4">
             <div className="row">

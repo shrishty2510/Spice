@@ -5,7 +5,7 @@ import Categories from './js/data'
 import image1 from "./images/banner/spinner.gif"
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-
+import "./css/pusphcategory.css"
 
 const PusphProduct = () => {
     const { category_url } = useParams();
@@ -21,7 +21,7 @@ const PusphProduct = () => {
 
     return (
         <>
-            <section style={{ marginTop: '200px', }}>
+            <section style={{ marginTop: '160px', }}>
 
                 <main >
                     <div className="item_container container" >

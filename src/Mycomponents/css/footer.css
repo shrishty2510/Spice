@@ -100,6 +100,14 @@ footer{
 .fintro li a {
     color: darkgrey;
 }
+.fintroo{
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    color: darkgrey;
+}
+.fintroo:hover{
+    color:white;
+}
 .footer-heading{
     letter-spacing: 0.1rem;
     color:white;
@@ -207,7 +215,7 @@ footer  .quick-link{
         
         }
         footer .footer-flex-item ul{
-            padding-left: 20px;
+            padding-left: 6px;
         }
         footer  .quick-link{
             padding-left: 0px;

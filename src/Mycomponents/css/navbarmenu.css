@@ -208,11 +208,12 @@ nav ul li a:hover{
   }
   @media screen and (min-width:100px) and (max-width:1239px){
     nav .main-ul{
-      margin-top:-70px;
+      margin-top: -7px;
       border: 1px ridge crimson;
     }
     nav .main-ul a {
       font-size: 15px;
+      cursor: pointer;
     }
     nav .main-ul .second-ul li{
       text-align: left;
@@ -231,7 +232,7 @@ nav ul li a:hover{
     
     nav .main-ul  li{
       margin:-5px 0px;
-      cursor:pointer;
+     
     }
     nav .logo{
       padding-left:30px;
@@ -257,12 +258,12 @@ nav ul li a:hover{
     }
     
     .nav-icon{
-      display:block;
+      display:inline-table;
       cursor:pointer;
       font-size: 26px;
-      position: relative;
-      top: -90px;
-      float: right;
+      position: absolute;
+      top: 0px;
+      right: 10px;
     }
     nav ul ul{
       top:70px;
@@ -346,7 +347,6 @@ nav ul ul li{
   
 }
 nav .logo img{
-  float:right;
   padding-top:10px;
 
 }

@@ -133,8 +133,8 @@ export const Footer1 = () => {
                         <div className="mb-4 d-flex">
                             <img src={pic4} alt="" width="73px" className='px-2 rounded' />
                             <div className="text">
-                                <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/soya-chunks/soya-granules`} style={{textDecoration:'none'}}>
-                                   <p className="heading fintro">Checkout our new product soya granules &  more!</p>
+                                <Link className="img mr-4 fintroo rounded" to={`/product-page/pushp-masale/soya-chunks/soya-granules`} style={{textDecoration:'none'}}>
+                                   Checkout our new product soya granules &  more!
                                 </Link>
                                 
                             </div>
@@ -143,8 +143,8 @@ export const Footer1 = () => {
                             <img src={pic1} alt="" width="74px" className='px-2 rounded' />
                            
                             <div className="text">
-                                <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/western-spices/pushp-pasta-masala`} style={{textDecoration:'none'}} >
-                                    <p className="heading fintro">Checkout our new amazing pasta masala & more!</p>
+                                <Link className="img mr-4 fintroo rounded" to={`/product-page/pushp-masale/western-spices/pushp-pasta-masala`} style={{textDecoration:'none'}} >
+                                   Checkout our new amazing pasta masala & more!
                                 </Link>
                                 
                             </div>
@@ -152,8 +152,8 @@ export const Footer1 = () => {
                         <div className=" mb-4 d-flex">
                             <img src={pic2} alt="" width="74px" className='px-2 rounded' />
                             <div className="text">
-                            <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/western-spices/pushp-spice-booster-magical-masala`} style={{textDecoration:'none'}}  >
-                                <p className="heading fintro">Checkout our amazing spice booster masala & more!</p>
+                            <Link className="img mr-4 fintroo  rounded" to={`/product-page/pushp-masale/western-spices/pushp-spice-booster-magical-masala`} style={{textDecoration:'none'}}  >
+                               Checkout our amazing spice booster masala & more!
                             </Link>
                               
                             </div>
@@ -189,7 +189,7 @@ export const Footer1 = () => {
                             < p style={pstyle}><i className="fa fa-home" style={icon} aria-hidden="true"></i>
                                 Head Off: 19, Mahavar Nagar, Annapurna&nbsp;Road, Indore-452009 (M.P)</p>
                             <p style={pstyle} ><i className="fa fa-phone" style={icon} aria-hidden="true"></i>+91 7312481134</p>
-                            <p style={pstyle} ><i className="fa fa-envelope" style={icon} aria-hidden="true"></i>info@pushpmasale.com</p>
+                            <a  style={{textDecoration:"none"}} href = "mailto: info@pushpmasale.com"> <p style={pstyle} ><i className="fa fa-envelope" style={icon} aria-hidden="true"></i>info@pushpmasale.com</p></a>
                             <div className='d-flex footer-subscribe-div'>
 
                                 <input type="text" value={query} onChange={handleInput} style={{ padding: ' 5px 20px', width: '260px', display: 'inline' }} className="my-2" placeholder='Write your query' name='query' />

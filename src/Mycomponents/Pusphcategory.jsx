@@ -38,7 +38,8 @@ export const Pusphcategory = () => {
 
 
   const gotoproductsection = () => {
-    window.scrollTo({ top: productsection.current.offsetTop, behavior: 'smooth' });
+    // window.scrollTo({ top: productsection.current.offsetTop, behavior: 'smooth' });
+    window.scrollTo({ top: (productsection.current.offsetTop)-150, behavior: 'smooth' });
   }
 
   const filterItem = (catItem) => {
@@ -66,6 +67,9 @@ export const Pusphcategory = () => {
         else if (catItem === "SHAHI HING") {
           setValue7('active'); setValue1(''); setValue2(''); setValue('');setValue4('');setValue3('');setValue5('');setValue6('');
         }
+        else if (catItem === "QUICK FRY") {
+          setValue4('active'); setValue1(''); setValue2(''); setValue('');setValue7('');setValue3('');setValue5('');setValue6('');
+        }
         return currData.category === catItem;
   
       });
@@ -84,14 +88,14 @@ export const Pusphcategory = () => {
 
   return (
     <>
-      <section style={{ marginTop: '200px', }}>
+      <section style={{ marginTop: '160px', }}>
 
 
       
         <div className=" container " data-aos="fade-up">
           
-           <div className="text-dark   pushp_category-h1 mb-5 container"> <h1 className=''>Category</h1></div>
-          <div className="flex-containerr ">
+          <div className="text-dark   pushp_category-h1 container" data-aos="fade-up"> <h1 className=''>Category</h1></div>
+            <div className="flex-containerr ">
            <div onClick={gotoproductsection} className="product-flex-item" >
               <div><Link className="category text-decoration-none" to="" onClick={() => filterItem('CTC SPICES')}> <img src={pic1} alt="ctc spices" width='200' height='117'/></Link></div>
               <div><Link id={value} className="category-link h5 text-decoration-none " to="" onClick={() => filterItem('CTC SPICES')}>CTC SPICES</Link></div>
@@ -126,39 +130,42 @@ export const Pusphcategory = () => {
               <div><Link id={value5} className="category-link h5 text-decoration-none" to="" onClick={() => filterItem('WESTERN SPICES')}>WESTERN SPICES</Link></div>
             </div>
            
-           </div>
+          </div>
           
 
         </div>
-        <main ref={productsection} >
-          <div className="item_container container" >
-            <div className=' Pusphcategory-h2' data-aos="zoom-in"> <p style={{ letterSpacing: '0.07rem', }} className='h2 '>{product}</p></div>
-            <div className="row mt-5" >
-              {data.map((values, index) => {
-                const { id, image, category, spice_url,spice,url} = values;
-                return (
-                  <>
-                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} data-aos="fade-down" data-aos-easing="ease-in-out">
-                      <div className="card mb-5 ">
-                        <div className="card_img text-center">
-                          <Link to={`/product-page/pushp-masale/${url}/${spice_url}`} > <LazyLoadImage src={image} width={170} height={210}  placeholderSrc={image1} effect="blur" alt="product_image" /></Link>
-                        </div>
-                        <div className="card_info my-4">
-                          <div><h6 className="text-center text-muted">{category}</h6></div>
-                          <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product-page/pushp-masale/${url}/${spice_url}`}>{spice}</Link></div>
+        <div className="container" ref={productsection}>
+          <main >
+            <div className="item_container container" >
+              <div className=' Pusphcategory-h2' data-aos="zoom-in"> <p style={{ letterSpacing: '0.07rem', }} className='h2 '>{product}</p></div>
+              <div className="row" >
+                {data.map((values, index) => {
+                  const { id, image, category, spice_url,spice,url} = values;
+                  return (
+                    <>
+                      <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} data-aos="fade-down" data-aos-easing="ease-in-out">
+                        <div className="card mb-5 ">
+                          <div className="card_img text-center">
+                            <Link to={`/product-page/pushp-masale/${url}/${spice_url}`} > <LazyLoadImage src={image} width={170} height={210}  placeholderSrc={image1} effect="blur" alt="product_image" /></Link>
+                          </div>
+                          <div className="card_info my-4">
+                            <div><h6 className="text-center text-muted">{category}</h6></div>
+                            <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product-page/pushp-masale/${url}/${spice_url}`}>{spice}</Link></div>
 
+                          </div>
                         </div>
+
+
+
                       </div>
-
-
-
-                    </div>
-                  </>
-                )
-              })}
+                    </>
+                  )
+                })}
+              </div>
             </div>
-          </div>
-        </main>
+          </main>
+        </div>
+      
       </section>
     </>
   )

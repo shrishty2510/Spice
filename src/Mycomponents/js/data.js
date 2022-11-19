@@ -54,8 +54,8 @@ import pic47 from "../images/product images/quickfry/Shahi Paneer QF.png"
 import pic48 from "../images/product images/quickfry/Shahi Sabji Masala QF.png"
 import pic49 from "../images/product images/quickfry/Soya Chunks QF.png"
 
-// import pic50 from "../images/product images/quickfry/pasta_masala slider.png";
-// import pic51 from "../images/product images/quickfry/Spice Booster slider.png";
+import pic50 from "../images/product images/quickfry/pasta_masala slider.png";
+import pic51 from "../images/product images/quickfry/Spice Booster slider.png";
 
 
 
@@ -696,32 +696,34 @@ const Items = [
         spice_url : "dal-fry-masala",
         spice : 'Dal Fry Masala',
     },
-    // {
-    //     id: 50,
-    //     image: pic50,
-    //     description: "Pushp Pasta Masala is an ingenious blend of spices that allows you to create a delicious macroni dish instantly. Just add the masala powder to add zing and excitement to your pasta dish.",
-    //     "available": [" Rs 5 (7.5g) | pack of 12 pouches"],
-    //     'recipe': [
-    //         'Boil 1 Cup (30g) Pasta in water for 5-10 minutes and remove excess water',
-    //         ' Now Fry chopped capsicum, onion and corn in butter, add 1 cup milk & 1 Sachet of Pushp Pasta Masala to the boiled pasta and stir fry',
-    //         ' Boil it for 5 mins and then drain the water and rinse the Chunks with fresh water',
-    //         ' Your delicious Pasta is now ready for 1 serving',
+    {
+        id: 50,
+        image: pic50,
+        description: "Pushp Pasta Masala is an ingenious blend of spices that allows you to create a delicious macroni dish instantly. Just add the masala powder to add zing and excitement to your pasta dish.",
+        "available": [" Rs 5 (7.5g) | pack of 12 pouches"],
+        'recipe': [
+            'Boil 1 Cup (30g) Pasta in water for 5-10 minutes and remove excess water',
+            ' Now Fry chopped capsicum, onion and corn in butter, add 1 cup milk & 1 Sachet of Pushp Pasta Masala to the boiled pasta and stir fry',
+            ' Boil it for 5 mins and then drain the water and rinse the Chunks with fresh water',
+            ' Your delicious Pasta is now ready for 1 serving',
             
-    //     ],
-    //     another: 'Boil 150ml water with Pushp pasta masala and enjoy the delicious soup',
-    //     category: 'WESTERN SPICES',
-    //     spice: 'Pusph Pasta Masala(2)',
-    // },
-    // {
-    //     id: 51,
-    //     image: pic51,
-    //     description: "Now cooking a special treat at home anytime is easy with Pushp Spice Booster  Magical Masala. A perfect blend of herbs and spices in a single sachet to make delicious dishes in minutes.",
-    //     "available": [" Rs 5 & 7.5g | pack of 12 pouches"],
-    //     category: 'WESTERN SPICES',
-    //     spice: 'Pusph Spice Booster Magical Masala(2)',
-    // },
-
-
+        ],
+        another: 'Boil 150ml water with Pushp pasta masala and enjoy the delicious soup',
+        category: 'WESTERN SPICES',
+        url : "western-spices",
+        spice_url : "pusph-pasta-masala",
+        spice: 'Pusph Pasta Masala',
+    },
+    {
+        id: 51,
+        image: pic51,
+        description: "Now cooking a special treat at home anytime is easy with Pushp Spice Booster  Magical Masala. A perfect blend of herbs and spices in a single sachet to make delicious dishes in minutes.",
+        "available": [" Rs 5 & 7.5g | pack of 12 pouches"],
+        category: 'WESTERN SPICES',
+        url : "western-spices",
+        spice_url : "pusph-spice-booster-magical-masala",
+        spice: 'Pusph Spice Booster Magical Masala',
+    },
 
 
 ]

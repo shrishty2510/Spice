@@ -61,7 +61,7 @@ export class OwlDemo3 extends Component {
 
                                            
                                        </div>
-                                       <h6 style={{ marginLeft: '65px' }} className='text-danger my-2 '>{filteredItem.spice}</h6>
+                                       <h6 style={{ marginLeft: '0px' }} className='text-danger my-2 '>{filteredItem.spice}</h6>
 
                                    </div>
 

@@ -11,6 +11,7 @@ body{
   box-sizing: border-box;
   width: 100%;
   list-style: none;
+  user-select: none;
   text-decoration: none;
 
 

@@ -54,7 +54,7 @@ export const Product_page = () => {
   return (
 
     <>
-      <section style={{ marginTop: '150px', }}>
+      <section style={{ marginTop: '120px', }}>
         {/* <div className="background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' /> </div> */}
         <main>
           <div className="container product_container mt-4">
@@ -169,8 +169,11 @@ export const Product_page = () => {
                       <div className="hrline"></div>
                     </div>
                   </div>
-                  <div>{filteredItem.category === "WESTERN SPICES"? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice}/>:
+                  {/* <div>{filteredItem.category === "WESTERN SPICES"? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice}/>:
                   <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />}
+                  </div> */}
+                  <div>
+                  <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />
                   </div>
                 </>
               ))

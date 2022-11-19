@@ -188,7 +188,7 @@ export const Footer1 = () => {
 
                             < p style={pstyle}><i className="fa fa-home" style={icon} aria-hidden="true"></i>
                                 Head Off: 19, Mahavar Nagar, Annapurna&nbsp;Road, Indore-452009 (M.P)</p>
-                            <p style={pstyle} ><i className="fa fa-phone" style={icon} aria-hidden="true"></i>+91 7312481134</p>
+                                <a style={{textDecoration:"none"}}  href="tel:7312481134"> <p style={pstyle} ><i className="fa fa-phone" style={icon} aria-hidden="true"></i>+91 7312481134</p></a>    
                             <a  style={{textDecoration:"none"}} href = "mailto: info@pushpmasale.com"> <p style={pstyle} ><i className="fa fa-envelope" style={icon} aria-hidden="true"></i>info@pushpmasale.com</p></a>
                             <div className='d-flex footer-subscribe-div'>
 

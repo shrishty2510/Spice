@@ -46,7 +46,7 @@ export class OwlDemo2 extends Component {
                     </div>
                 </div>
 
-                <div className='container-fluid' >
+                <div className='container-fluid my-4' >
                      <OwlCarousel  margin={80} autoplay={true} autoplayTimeout={2000} lazyLoad={true} loop={true} className="owl-theme"  {...options} >
                         {categories.filter(product => product.category === value && product.spice !== value1).map(filteredItem => (
                             <>

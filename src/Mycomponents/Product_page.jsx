@@ -169,12 +169,12 @@ export const Product_page = () => {
                       <div className="hrline"></div>
                     </div>
                   </div>
-                  {/* <div>{filteredItem.category === "WESTERN SPICES"? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice}/>:
+                  <div>{filteredItem.category === "WESTERN SPICES" ? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice}/>:
                   <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />}
-                  </div> */}
-                  <div>
-                  <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />
                   </div>
+                  {/* <div>
+                  <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />
+                  </div> */}
                 </>
               ))
               }

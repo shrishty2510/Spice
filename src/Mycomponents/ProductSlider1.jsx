@@ -21,10 +21,10 @@ const options = {
             items: 1,
         },
         800: {
-            items: 1,
+            items: 3,
         },
         1000: {
-            items: 1,
+            items: 3,
         }
     },
 };
@@ -49,7 +49,7 @@ export class OwlDemo4 extends Component {
                             }} />
                         </div>
                         { value === "WESTERN SPICES"? 
-                           <OwlCarousel margin={80} autoplay={true} autoplayTimeout={2000} lazyLoad={true} loop={true} className="owl-theme"  {...options} >
+                           <OwlCarousel margin={90} autoplay={true} autoplayTimeout={2000} lazyLoad={true} loop={true} className="owl-theme"  {...options} >
                            {categories.filter(product => product.category === "WESTERN SPICES"  && product.spice !== value1 ).map(filteredItem => (
                                <>
 

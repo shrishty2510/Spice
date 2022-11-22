@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import products from "./js/home_products"
 import pic1 from './images/product images/owldemo/Hing Mockup 100g.png';
 import pic2 from './images/product images/owldemo/QF Dal Tadka Masala.png';
-import pic5 from './images/product images/owldemo/Shahi Paneer QF.png';
+import pic5 from './images/product images/owldemo/QF Shahi Paneer.png';
 import pic6 from './images/product images/owldemo/Kashmiri Mirch.png';
 import pic7 from './images/product images/owldemo/Achar Masala.png';
 import pic8 from './images/product images/owldemo/Poha Masala.png';

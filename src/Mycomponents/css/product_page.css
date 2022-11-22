@@ -30,6 +30,42 @@
     background-color: white;
    
 }
+.recipe-con{
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.949);
+    margin-top: 15px;
+
+}
+.marquee_div_rec {
+    font-size: 50px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3rem;
+    line-height: 260px;
+    width: 500px;
+
+}
+.rec-button{
+    display: block;
+    padding: 10px 5px;
+    width: 18%;
+    text-align: center;
+    border: 1px groove white;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    float: right;
+    background-color:#201d1d;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 black;
+    transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
+    text-decoration: none;
+}
+.rec-button:hover{
+    box-shadow: inset 200px 0px 0px 0px #e31e24;;
+    color:white;
+}
 .product_image img:hover{
     transform: scale(1.1);
 }

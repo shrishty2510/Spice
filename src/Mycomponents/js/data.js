@@ -248,6 +248,7 @@ const Items = [
         category: "BLENDED SPICES",
         url : "blended-spices",
         spice_url : "chat-masala",
+        video:"https://www.youtube.com/embed/dB6lvy1z1eQ",
         spice: "Chat Masala"
     },
     {
@@ -315,7 +316,8 @@ const Items = [
         category: "BLENDED SPICES",
         url : "blended-spices",
         spice_url : "pani-poori-masala",
-        spice: "Pani Poori Masala"
+        spice: "Pani Poori Masala",
+        video:"https://www.youtube.com/embed/D1SSDJXsynE"
     },
     {
         id: 20,
@@ -329,6 +331,7 @@ const Items = [
         category: "BLENDED SPICES",
         url : "blended-spices",
         spice_url : "pav-bhaji-masala",
+        video:"https://www.youtube.com/embed/e2v5YTPdDfg",
         spice: "Pav Bhaji Masala"
     },
     {
@@ -544,6 +547,7 @@ const Items = [
         category: "HORECA",
         url : "horeca",
         spice_url : "chat-masala",
+      
         spice: "Chat Masala"
     },
     {
@@ -637,6 +641,7 @@ const Items = [
         small_text : 'with onion and garlic',
         category:'QUICK FRY',
         url : "quick-fry",
+        video:"https://www.youtube.com/embed/CA7MzZYRJeQ",
         spice_url : "dal-tadka-masala",
         spice : 'Dal Tadka Masala',
     },
@@ -648,6 +653,7 @@ const Items = [
         small_tex : 'without onion and garlic',
         category:'QUICK FRY',
         url : "quick-fry",
+        video:"https://www.youtube.com/embed/izm4Tw95H6w",
         spice_url : "sabji-masala",
         spice : 'Sabji Masala',
     },
@@ -660,6 +666,7 @@ const Items = [
         small_text : 'with onion and garlic',
         category:'QUICK FRY',
         url : "quick-fry",
+        video:"https://www.youtube.com/embed/eLftBnnuE9c",
         spice_url : "shahi-paneer-masala",
         spice : 'Shahi Paneer Masala',
     },
@@ -673,6 +680,7 @@ const Items = [
         url : "quick-fry",
         spice_url : "shahi-sabji-masala",
         spice : 'Shahi Sabji Masala',
+        video: 'https://www.youtube.com/embed/Mo6UIYO-lmw',
     },
    
     {

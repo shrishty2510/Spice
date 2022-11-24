@@ -12,9 +12,11 @@ import pic4 from './images/csr/Photo4.jpg'
 import pic5 from './images/csr/Photo5.jpg'
 import pic6 from './images/csr/Photo6.jpg'
 import pic7 from './images/csr/Photo7.jpg'
+import pic8 from './images/csr/CSR Image.png'
 
 import poster from './images/banner/video-poster.jpg'
 import { useEffect } from 'react'
+// https://media.istockphoto.com/photos/top-view-of-teamwork-hands-holding-the-earth-on-a-green-background-picture-id1331030753?b=1&k=20&m=1331030753&s=170667a&w=0&h=aLbuozPy4LrrfL7HrCtQfQxR22ntiz4cE6y9fwKvTL8=
 export const Csr = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,7 +27,7 @@ export const Csr = () => {
     <>
       <div className="container container-csr" style={{ marginTop: '150px', fontFamily: '"Poppins", sans-serif' }}>
         <div className="row">
-          <div className="col-xl-6 col-sm-12 text-sm-center img"><img src="https://media.istockphoto.com/photos/top-view-of-teamwork-hands-holding-the-earth-on-a-green-background-picture-id1331030753?b=1&k=20&m=1331030753&s=170667a&w=0&h=aLbuozPy4LrrfL7HrCtQfQxR22ntiz4cE6y9fwKvTL8=" width='500px' height='310px' alt="csr_pic" /></div>
+          <div className="col-xl-6 col-sm-12 text-sm-center img"><img src={pic8} width='500px' height='310px' alt="csr_pic" /></div>
           <div className="col-xl-6 col-sm-12 my-1">
             <h1 className='div-h'>Our Commitment <br />to the Future</h1>
             <p className='div-p mx-2' >Pushp Foundation the Corporate Social Responsibility (CSR) arm of Pushp Masale has been started with the aim of benefitting economically marginalized sections of the society by way of organizing.</p>

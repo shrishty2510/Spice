@@ -70,12 +70,13 @@ export const Contact = () => {
                                 <div className="text-two">Annapurna Main Road, Indore (M.P.)</div>
                             </div>
                             <div className="phone details">
-                                <i className="fas fa-phone-alt"></i>
+                              
+                                <a style={{textDecoration:"none"}}  href="tel:7312481134">  <i className="fas fa-phone-alt"></i></a>    
                                 <div className="topic">Phone</div>
                                 <div className="text-one">+91 9285108050</div>
                             </div>
                             <div className="email details">
-                                <i className="fas fa-envelope"></i>
+                            <a  style={{textDecoration:"none"}} href = "mailto: sales@pushpmasale.com"> <i className="fas fa-envelope"></i></a>
                                 <div className="topic">Email</div>
                                 <div className="text-one">info@pushpmasale.com</div>
                                 <div className="text-two">sales@pushpmasale.com</div>

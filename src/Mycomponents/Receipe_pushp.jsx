@@ -14,15 +14,9 @@ export const Receipe_pushp = ({spice,category}) => {
             <>
              
                 <div className="float-right d-none"><a className='rec-button' href="/recipe/videos" target="_blank">View All Recipes</a></div>
-                <div className=" row recipe-con " data-aos="flip-down">
-                  <div
-                    className="col-sm-12 col-lg-6 order-2 text-center "
-
-                  >
-                    <div className="py-2"><iframe width="500" height="280" src={filteredItem.video} title="YouTube video player" frameborder="0" allow="autoplay;"  allowFullScreen></iframe></div>
-
-                  </div>
-                  <div className="d-sm-none d-none col-lg-6  text-center">
+                <div className=" row recipe-con container " data-aos="flip-down">
+                 
+                  <div className="marquee_div col-lg-6 text-center ">
                     <marquee
                       className="marquee_div_rec"
                       behavior="scroll"
@@ -31,6 +25,13 @@ export const Receipe_pushp = ({spice,category}) => {
                     >
                       {filteredItem.spice} ❤ Recipe
                     </marquee>
+                  </div>
+                  <div
+                     id="iframe-con" className="col-sm-12 col-lg-6   container-fluid   text-center "
+
+                  >
+                    <iframe  src={filteredItem.video} title="YouTube video player" frameborder="0" allow="autoplay;"  allowFullScreen></iframe>
+
                   </div>
 
                 </div>

@@ -11,6 +11,7 @@ import OwlDemo4 from "./ProductSlider1";
 import Items from './js/data.js'
 import image from "./images/banner/spinner.gif"
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import './css/product_page.css'
 import { Receipe_pushp } from './Receipe_pushp';
 
 
@@ -168,35 +169,36 @@ export const Product_page = () => {
                       <div className="hrline"></div>
                     </div>
                   </div>
-                  < Receipe_pushp spice={filteredItem.spice} category={filteredItem.category}  />
                   {filteredItem.video ?
-                    <>
-                     
-                        <div className="float-right"><a className='rec-button' href="/recipe/videos" target="_blank">View All Recipes</a></div>
-                        <div className=" row recipe-con " data-aos="flip-down">
-                          <div
-                            className="col-sm-12 col-lg-6 order-2 text-center "
+            <>
+             
+                <div className="float-right rec-button-con"><a className='rec-button' href="/recipe/videos" target="_blank">View All Recipes</a></div>
+                <div className=" row recipe-con container " data-aos="flip-down">
+                 
+                  <div className="marquee_div col-md-12 col-lg-6 text-center ">
+                    <marquee
+                      className="marquee_div_rec"
+                      behavior="scroll"
+                      direction="left"
+                      scrollamount="9"
+                    >
+                      {filteredItem.spice} ❤ Recipe
+                    </marquee>
+                  </div>
+                  <div
+                     id="iframe-con" className="col-sm-12 col-md-12 col-lg-6 p-3   container-fluid   text-center "
 
-                          >
-                            <div className="py-2"><iframe width="500" height="280" src={filteredItem.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen></iframe></div>
+                  >
+                    <iframe style={{width:"90%",height:"100%"}} src={filteredItem.video} title="YouTube video player" frameborder="0" allow="autoplay;"  allowFullScreen></iframe>
 
-                          </div>
-                          <div className="col-sm-12 col-lg-6  text-center">
-                            <marquee
-                              className="marquee_div_rec"
-                              behavior="scroll"
-                              direction="left"
-                              scrollamount="9"
-                            >
-                              {filteredItem.spice} ❤ Recipe
-                            </marquee>
-                          </div>
+                  </div>
 
-                        </div>
-                     
-                    </> : null
+                </div>
+                <div className="text-center rec-button-con1" ><a className='rec-button1' href="/recipe/videos" target="_blank">View All Recipes</a></div>
+             
+            </> : null
 
-                  }
+          }
 
                   <div>{filteredItem.category === "WESTERN SPICES" ? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice} /> :
                     <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice} />}

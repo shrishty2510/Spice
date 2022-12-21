@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link,  } from "react-router-dom";
 import products from "./js/home_products"
 import pic1 from './images/product images/owldemo/Hing Mockup 100g.png';
 import pic2 from './images/product images/owldemo/QF Dal Tadka Masala.png';
@@ -193,6 +193,7 @@ export const Home_products = () => {
                     </div>
                 </div>
             </div>
+          
         </>
     )
 }

@@ -1,5 +1,5 @@
 
-import React, { Suspense, lazy, useState, useEffect } from "react";
+import React, { Suspense, lazy, useState, useEffect,memo } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import { Main } from "./Mycomponents/Main"
@@ -43,7 +43,7 @@ function App() {
         <Suspense fallback={<div  id="suspense"><img src={logo} width="105px" height="35px" alt="" /></div>}>
         <Navbarmenu />
           <Routes>
-            <Route exact path='/' element={< Main />}></Route>
+            <Route index element={< Main />}></Route>
             <Route path='/about-us' element={< About />}></Route>
             <Route path='/contact-us' element={< Contact />}></Route>
             <Route path='/all-products' element={< Pusphcategory />}></Route>

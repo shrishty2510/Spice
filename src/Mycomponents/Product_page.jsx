@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -12,7 +12,6 @@ import Items from './js/data.js'
 import image from "./images/banner/spinner.gif"
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './css/product_page.css'
-import { Receipe_pushp } from './Receipe_pushp';
 
 
 export const Product_page = () => {
@@ -61,8 +60,8 @@ export const Product_page = () => {
             <div className="row">
 
 
-              {Items.filter(item => item.spice_url === product_name_url && item.url === product_category_url).map(filteredItem => (
-                <>
+              {Items.filter(item => item.spice_url === product_name_url && item.url === product_category_url).map((filteredItem) => {
+                return <>
                   <div className="col-xl-3  col-lg-4  col-md-12 col-sm-12 col-xs-12">
                     <div className="product_image text-center" data-aos="fade-right" style={{
                       margin: '30px 0px',
@@ -165,40 +164,40 @@ export const Product_page = () => {
                         </div>
 
                       </div>
-                      <div className="" data-aos="flip-down" data-aos-offset="10"><a className='buynow' href={url} target="_blank">Buy Now</a></div>
+                      <div className="" data-aos="flip-down" data-aos-offset="10"><a className='buynow' href={url} rel="noopener noreferrer" target="_blank">Buy Now</a></div>
                       <div className="hrline"></div>
                     </div>
                   </div>
                   {filteredItem.video ?
-            <>
-             
-                <div className="float-right rec-button-con"><a className='rec-button' href="/recipe/videos" target="_blank">View All Recipes</a></div>
-                <div className=" row recipe-con container " data-aos="flip-down">
-                 
-                  <div className="marquee_div col-md-12 col-lg-6 text-center ">
-                    <marquee
-                      className="marquee_div_rec"
-                      behavior="scroll"
-                      direction="left"
-                      scrollamount="9"
-                    >
-                      {filteredItem.spice} ❤ Recipe
-                    </marquee>
-                  </div>
-                  <div
-                     id="iframe-con" className="col-sm-12 col-md-12 col-lg-6 p-3   container-fluid   text-center "
+                    <>
 
-                  >
-                    <iframe style={{width:"90%",height:"100%"}} src={filteredItem.video} title="YouTube video player" frameborder="0" allow="autoplay;"  allowFullScreen></iframe>
+                      <div className="float-right rec-button-con"><a className='rec-button' href="/recipe/videos" rel="noopener noreferrer" target="_blank">View All Recipes</a></div>
+                      <div className=" row recipe-con container " data-aos="flip-down">
 
-                  </div>
+                        <div className="marquee_div col-md-12 col-lg-6 text-center ">
+                          <marquee
+                            className="marquee_div_rec"
+                            behavior="scroll"
+                            direction="left"
+                            scrollamount="9"
+                          >
+                            {filteredItem.spice} ❤ Recipe
+                          </marquee>
+                        </div>
+                        <div
+                          id="iframe-con" className="col-sm-12 col-md-12 col-lg-6 p-3   container-fluid   text-center "
 
-                </div>
-                <div className="text-center rec-button-con1" ><a className='rec-button1' href="/recipe/videos" target="_blank">View All Recipes</a></div>
-             
-            </> : null
+                        >
+                          <iframe style={{ width: "90%", height: "100%" }} src={filteredItem.video} title="YouTube video player" frameborder="0" allow="autoplay;" allowFullScreen></iframe>
 
-          }
+                        </div>
+
+                      </div>
+                      <div className="text-center rec-button-con1" ><a className='rec-button1' href="/recipe/videos" rel="noopener noreferrer" target="_blank">View All Recipes</a></div>
+
+                    </> : null
+
+                  }
 
                   <div>{filteredItem.category === "WESTERN SPICES" ? <OwlDemo4 category_name={filteredItem.category} spice={filteredItem.spice} /> :
                     <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice} />}
@@ -207,7 +206,7 @@ export const Product_page = () => {
                   <OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  />
                   </div> */}
                 </>
-              ))
+              })
               }
 
 

@@ -50,3 +50,4 @@ export const Receipe_pushp = ({spice,category}) => {
   </div>
   )
 }
+

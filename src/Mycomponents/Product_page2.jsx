@@ -135,7 +135,7 @@ export const Product_page2 = () => {
                         </div>
 
                       </div>
-                      <div className=""  data-aos="flip-down" data-aos-offset="10"><a href={url} className="buynow"  target="_blank">Buy Now</a></div>
+                      <div className=""  data-aos="flip-down" data-aos-offset="10"><a href={url} rel="noopener noreferrer" className="buynow"  target="_blank">Buy Now</a></div>
                       <div className="hrline"></div>
                     </div>
                   </div>

@@ -38,7 +38,7 @@ export const Video = () => {
                             <p>Join thousands of subscribers and get our best recipes delivered each week!</p>
                             <div className="fields-container text-center">
                                 {/* <input type="email" name="email" value="" size="35" placeholder="Your Email Address"/><br/>  */}
-                                <a href="https://youtube.com/channel/UCW9NavITPhbOV1laY7UwEeA" className='recipe-button' target="_blank">Subscribe</a>
+                                <a href="https://youtube.com/channel/UCW9NavITPhbOV1laY7UwEeA" rel="noopener noreferrer" className='recipe-button' target="_blank">Subscribe</a>
                             </div> 
                       </div>
                     </div>

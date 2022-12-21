@@ -145,7 +145,7 @@ export const Navbarmenu = () => {
           </li>
 
           <li className="">
-            <a className=" buy-online " href={url} target="_blank"  onClick={navclose} >
+            <a className=" buy-online " href={url} rel="noopener noreferrer" target="_blank"  onClick={navclose} >
               Buy Online
             </a>
           </li>

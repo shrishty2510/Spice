@@ -50,25 +50,25 @@ export const Csr = () => {
           <div className="container">
             <div className="csr-flex ">
                   <div class="career_img text-center">
-                    <a href={pic4} target="_blank"> <img src={pic4} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic4} rel="noopener noreferrer" target="_blank"> <img src={pic4} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
-                    <a href={pic6} target="_blank"> <img src={pic6} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic6} rel="noopener noreferrer" target="_blank"> <img src={pic6} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
-                    <a href={pic7} target="_blank"> <img src={pic7} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic7} rel="noopener noreferrer" target="_blank"> <img src={pic7} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
-                    <a href={pic3} target="_blank"> <img src={pic3} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic3} rel="noopener noreferrer" target="_blank"> <img src={pic3} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
-                    <a href={pic2} target="_blank"> <img src={pic2} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic2} rel="noopener noreferrer" target="_blank"> <img src={pic2} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
                     <a href={pic1} target="_blank"> <img src={pic1} width="100%" height="100%" alt="img" /> </a>
                   </div>
                   <div class="career_img">
-                    <a href={pic5} target="_blank"> <img src={pic5} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic5} rel="noopener noreferrer" target="_blank"> <img src={pic5} width="100%" height="100%" alt="img" /> </a>
                   </div>
 
                   

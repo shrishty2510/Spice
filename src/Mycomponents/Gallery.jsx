@@ -33,15 +33,15 @@ export const Gallery = () => {
                 <div className="gallery-container1">
                     <div className="gallery">
                         <div class="content_img">
-                        <a href={pic1} target="_blank"> <img src={pic1} width="100%" height="100%" alt="img" /> </a>
+                        <a href={pic1} rel="noopener noreferrer" target="_blank"> <img src={pic1} width="100%" height="100%" alt="img" /> </a>
                                 <div>15th August Independence Day</div>
                         </div>
                         <div class="content_img">
-                        <a href={pic2} target="_blank"> <img src={pic2} width="100%" height="100%" alt="img"/> </a>
+                        <a href={pic2} rel="noopener noreferrer" target="_blank"> <img src={pic2} width="100%" height="100%" alt="img"/> </a>
                                 <div>15th August Independence Day</div>
                         </div>
                         <div class="content_img">
-                        <a href={pic3} target="_blank"> <img src={pic3} width="100%" height="100%" alt="img" /> </a>
+                        <a href={pic3} rel="noopener noreferrer" target="_blank"> <img src={pic3} width="100%" height="100%" alt="img" /> </a>
                                 <div>15th August Independence Day</div>
                         </div>
 
@@ -65,15 +65,15 @@ export const Gallery = () => {
                 <div className="gallery-container1">
                     <div className="gallery">
                     <div class="content_img">
-                    <a href={pic16} target="_blank"> <img src={pic16} width="100%" height="100%" alt="img" /> </a>
+                    <a href={pic16} rel="noopener noreferrer" target="_blank"> <img src={pic16} width="100%" height="100%" alt="img" /> </a>
                                 <div>Celebration Of Women's Day </div>
                         </div>
                         <div class="content_img">
-                        <a href={pic11} target="_blank"> <img src={pic11} width="100%" height="100%" alt="img"/> </a>
+                        <a href={pic11} rel="noopener noreferrer" target="_blank"> <img src={pic11} width="100%" height="100%" alt="img"/> </a>
                                 <div>Celebration Of Women's Day </div>
                         </div>
                         <div class="content_img">
-                        <a href={pic12} target="_blank"> <img src={pic12} width="100%" height="100%" alt="img"/> </a>
+                        <a href={pic12} rel="noopener noreferrer" target="_blank"> <img src={pic12} width="100%" height="100%" alt="img"/> </a>
                                 <div>Celebration Of Women's Day </div>
                         </div>
                         {/* <a href={pic13} target="_blank"> <img src={pic13} /> </a>

@@ -92,7 +92,7 @@ export const Main = () => {
                                 style={{ color: "whitesmoke", cursor: "pointer" }}
                             >
 
-                                <a href={brouchure} download target="_blank" type="file" style={{ color: 'white', textDecoration: 'none' }} >
+                                <a href={brouchure} rel="noopener noreferrer" download target="_blank" type="file" style={{ color: 'white', textDecoration: 'none' }} >
                                     <h1>
                                         Download our E-Catalouge{" "}
                                         <DownloadSharpIcon
